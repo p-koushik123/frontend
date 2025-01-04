@@ -1,0 +1,96 @@
+.register-page{
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    font-family: 'Poppins';
+}
+
+.register-part1{
+    width: 50%;
+}
+
+.register-part2{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.image-container img{
+    object-fit: cover;
+    width: 30rem;
+}
+
+
+
+.container{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #F6F6F6;
+    padding-top: none;
+    padding: 0 2rem;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+.form-group input{
+    padding: 0.5rem;
+    min-width: 300px;
+    border-radius: 5px;
+    border: 0.2px solid #ccc;
+}
+
+.form-group select{
+    min-width: 320px;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 0.2px solid #ccc;
+}
+
+
+.submit-btn{
+    margin: 1rem;
+    padding: 0.5rem;
+    min-width: 150px;
+    border-radius: 5px;
+    background-color: #09cb74;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    font-family: 'Poppins';
+}
+
+@media (max-width: 768px) {
+    .register-part1 {
+        width: 100%;
+    }
+
+    .register-part2 {
+        display: none;
+    }
+}
